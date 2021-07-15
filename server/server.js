@@ -3,7 +3,9 @@ const express = require('express');
 // import ApolloServer
 const { ApolloServer } = require('apollo-server-express');
 
-/* const path = require('path'); */
+const { authMiddleware } = require('./utils/auth');
+
+const path = require('path'); 
 
 // import our typeDefs and resolvers
 const { typeDefs, resolvers } = require('./schemas');
@@ -40,6 +42,4 @@ app.get('*', (req, res) => {
 
 db.once('open', () => {
   app.listen(PORT, () => console.log(`🌍 Now listening on localhost:${PORT}`));
-  // log where we can go to test our GQL API
-  console.log(`Use GraphQL at http://localhost:${PORT}${server.graphqlPath}`);
 });
