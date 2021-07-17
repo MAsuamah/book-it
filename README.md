@@ -23,7 +23,7 @@ Click on the `Login/Signup` menu option. A modal appears on the screen with a to
 * When the toggle is set to `Signup`, you are presented with three inputs for a username, an email address, and a password, as well as a signup button.
 * When the toggle is set to `Login`, you are presented with two inputs for an email address and a password, as well as a login button
 * When you enter a valid email address and create a password and click on the signup button, your user account is created and you are logged in to the site
-* When  you enter your account’s email address and password and click on the login button, the modal closes and I am logged in to the site
+* When  you enter your account’s email address and password and click on the login button, the modal closes and you are logged in to the site
 * When you are logged in to the site, the menu options change to `Search for Books`, an option to `See Your Books`, and `Logout`
 
 ![screencapture-masuamah-book-it-herokuapp-2021-07-17-16_16_15](https://user-images.githubusercontent.com/77217156/126048492-3ea3a0e3-e9c6-4321-807a-9ebaf2a27e6a.png)
