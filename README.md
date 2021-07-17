@@ -19,9 +19,9 @@ Use the input field to enter a book name, keywords, or author name to find your 
 ![screencapture-masuamah-book-it-herokuapp-2021-07-17-16_22_02](https://user-images.githubusercontent.com/77217156/126048557-4181074d-fe4c-4346-851e-c603d0cb73d6.png)
 
 ### Login
-Click on the Login/Signup menu option. A modal appears on the screen with a toggle between the option to log in or sign up.
-* When the toggle is set to Signup, you are presented with three inputs for a username, an email address, and a password, and a signup button.
-* When the toggle is set to Login, you are presented with two inputs for an email address and a password and login button
+Click on the `Login/Signup` menu option. A modal appears on the screen with a toggle between the option to log in or sign up.
+* When the toggle is set to `Signup`, you are presented with three inputs for a username, an email address, and a password, as well as a signup button.
+* When the toggle is set to `Login`, you are presented with two inputs for an email address and a password, as well as a login button
 * When you enter a valid email address and create a password and click on the signup button, your user account is created and you are logged in to the site
 * When  you enter your account’s email address and password and click on the login button, the modal closes and I am logged in to the site
 * When you are logged in to the site, the menu options change to `Search for Books`, an option to `See Your Books`, and `Logout`
@@ -36,7 +36,7 @@ and to see your saved books click `See Your Books` in in the navigation bar.
 
 ### Personal Catalogue
 Clicking on the `See Your Books` option will present you with your own personal catalogue. In this catalogue you will be presented with your saved books 
-including the book’s title, author, description, image, a link to that book on the Google Books site, and a button to remove a book from my account.
+including the book’s title, author, description, image, a link to that book on the Google Books site, and a button to remove a book from your account.
 
 
 ![screencapture-masuamah-book-it-herokuapp-saved-2021-07-17-16_18_09](https://user-images.githubusercontent.com/77217156/126048587-1aedcaf8-37b7-4880-a022-98b614348eb8.png)
@@ -46,5 +46,5 @@ Click on the `Delete this Book!` button on a book to delete a book from your sav
 
 
 ### Logout
-Click on the Logout button to logout.
-Once logged out of the site, you are presented with a menu with the options `Search for Books` and `Login/Signup` and an input field to search for books and a submit button. 
+Click on the Logout button to logout. Once logged out of the site, you are presented with a menu with the options `Search for Books` and 
+`Login/Signup` and an input field to search for books and a submit button. 
