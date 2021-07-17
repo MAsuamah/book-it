@@ -6,17 +6,15 @@ personal account where you can save and keep track of books you'd like to read i
 ## Features and How To Use
 
 ### Landing Page
-When the search engine is loaded, you are presented with 
+When the search engine is loaded, you are presented with options to 
 * `Search for Books`
 * `Login/Signup` 
-* An input field to search for books and a submit button.
+*  Use an input field to search for books and a `Submit Search` button.
 
 ![screencapture-masuamah-book-it-herokuapp-2021-07-17-16_16_35](https://user-images.githubusercontent.com/77217156/126048488-31b84463-a810-4fab-9282-9e407fd19484.png)
 
 ### Search for Books
-Use the input field to enter a book name, keywords, or author name to find your next read. Click submit and be presented with a catalogue of books including 
-the book’s title, author, description, image, and a link to that book on the Google Books site, all provided by the Google Books API. You can search for books 
-whether you are logged in or logged out, however you can only save books while logged in.
+Use the input field to enter a book name, keywords, or author name to find your next read. Click `Submit Search` and be presented with a catalogue of books including the book’s title, author, description, image, and a link to that book on the Google Books site, all provided by the Google Books API. You can search for books whether you are logged in or logged out, however you can only save books while logged in.
 
 ![screencapture-masuamah-book-it-herokuapp-2021-07-17-16_22_02](https://user-images.githubusercontent.com/77217156/126048557-4181074d-fe4c-4346-851e-c603d0cb73d6.png)
 
