@@ -6,8 +6,11 @@ const resolvers = {
   Query: {
     me: async (parent, args, context) => {
       if (context.user) {
-         await User.findOne({ _id: context.user._id })
+        const userData = await User.findOne({ _id: context.user._id })
           .select('-__v -password') 
+          .populate('savedBooks');
+  
+        return userData;
       }
 
       throw new AuthenticationError('Not logged in');
@@ -47,12 +50,9 @@ const resolvers = {
           { new: true }  
         );
         
-        return {user};
-        
-      } else {
-        throw new AuthenticationError('You need to be logged in!');
+        return user;   
       }
-      
+      throw new AuthenticationError('You need to be logged in!');
     },
     removeBook: async (parent, {bookId}, context) => {
       if (context.user) {
