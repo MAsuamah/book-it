@@ -46,8 +46,8 @@ Click on the `Delete this Book!` button on a book to delete a book from your sav
 
 
 ### Logout
-Click on the Logout button to logout. Once logged out of the site, you are presented with a menu with the options `Search for Books` and 
-`Login/Signup` and an input field to search for books and a submit button. 
+Click on the Logout button to logout. Once logged out of the site, you are presented with a menu with the options `Search for Books`, 
+`Login/Signup`, and an input field to search for books with a submit button. 
 
 ## Built With
 * MongoDB
