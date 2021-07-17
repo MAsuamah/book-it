@@ -9,7 +9,7 @@ personal account where you can save and keep track of books you'd like to read i
 When the search engine is loaded, you are presented with options to 
 * `Search for Books`
 * `Login/Signup` 
-*  Use an input field to search for books and a `Submit Search` button.
+*  Use an input field to search for books with a `Submit Search` button.
 
 ![screencapture-masuamah-book-it-herokuapp-2021-07-17-16_16_35](https://user-images.githubusercontent.com/77217156/126048488-31b84463-a810-4fab-9282-9e407fd19484.png)
 
@@ -30,7 +30,7 @@ Click on the `Login/Signup` menu option. A modal appears on the screen with a to
 
 ### Save Books
 When logged in a book search will not only present you with a catalogue of books but also the option to save them. To save a book, click `Save this Book!`, 
-and to see your saved books click `See Your Books` in in the navigation bar.
+and to see your saved books click `See Your Books` in the navigation bar.
 
 ![screencapture-masuamah-book-it-herokuapp-2021-07-17-16_14_19](https://user-images.githubusercontent.com/77217156/126048518-c3a8bca1-bc48-4303-a393-b502dcf2cd1a.png)
 
