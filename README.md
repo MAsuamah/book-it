@@ -57,8 +57,8 @@ Click on the `Logout` button to logout. Once logged out of the site, you are pre
 * GraphQL
 
 ## Credit
-https://www.apollographql.com/docs/react/data/queries/
-https://www.youtube.com/watch?v=lQ7t20gFR14
+* https://www.apollographql.com/docs/react/data/queries/
+* https://www.youtube.com/watch?v=lQ7t20gFR14
 
 ## Website
 https://masuamah-book-it.herokuapp.com/
